@@ -1,0 +1,34 @@
+{
+  "name": "mbed-example-network",
+  "version": "1.0.1",
+  "description": "Asynch Network Examples",
+  "keywords": [
+    "mbed",
+    "network",
+    "sockets",
+    "mbed-official"
+  ],
+  "author": "brendan.moran@arm.com",
+  "licenses": [
+    {
+      "url": "https://spdx.org/licenses/Apache-2.0",
+      "type": "Apache-2.0"
+    }
+  ],
+  "extraIncludes": [],
+  "dependencies": {
+    "mbed-drivers": "~0.11.1",
+    "sockets": "^1.0.0"
+  },
+  "targetDependencies": {},
+  "scripts": {
+    "testReporter": [
+      "mbedgt",
+      "--digest",
+      "stdin",
+      "-v",
+      "-V"
+    ]
+  },
+  "bin": "./source"
+}
